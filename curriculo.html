@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introdução ao Bootstrap</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+
+</head>
+
+<body>
+    
+      <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+  <a class="navbar-brand" href="#">TW - TênisWorld</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Alterna navegação">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="Casuais.html">Casuais</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="Chuteiras.html">Chuteiras</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="esportivos.html">Esportivos</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="Sobre.html">Sobre nós</a>
+      </li>
+            <li class="nav-item active">
+        <a class="nav-link" href="curriculo.html">Currículo</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+
+
+
+            <div class="container mt-3">
+
+                        
+
+<h2 style="text-align: center; margin-right: 1%; margin-bottom: 7%; ">Desenvolvedor Front-end</h2>
+
+            <div class="row">
+                <div class="col-sm-12 col-md-6">
+                  
+              
+                <form action="" method="post">
+
+                  <h4 style="margin-left: -0.2%; margin-bottom: 4%;">Informações pessoais</h4>
+
+                   <div class="form-group">
+    <label for="var_nome">Nome</label>
+    <input type="text" class="form-control" id="var_nome" placeholder="Seu nome">
+  </div>
+
+  <div class="form-group">
+    <label for="var_email">Email</label>
+    <input type="email" class="form-control" id="var_email" placeholder="Seu email">
+  </div>
+
+    <div class="form-group">
+    <label for="var_endereco">Endereço</label>
+    <input type="text" class="form-control" id="var_endereco" placeholder="Seu endereço">
+  </div>
+
+  <div class="form-group">
+    <label for="var_telefone">Telefone</label>
+    <input type="tel" class="form-control" id="var_telefone" placeholder="Seu telefone">
+  </div>
+
+  <h4>Formação acadêmica</h4>
+
+    <div class="form-group">
+    <label for="var_formacao">Sua formação</label>
+    <input type="text" class="form-control" id="var_formacao" placeholder="Sua formação">
+  </div>
+
+    <div class="form-group">
+    <label for="var_data_formacao">Data da formação</label>
+    <input type="date" class="form-control" id="var_data_formacao" placeholder="Data da formação">
+  </div>
+
+      <div class="form-group">
+    <label for="var_cidade_formacao">Cidade de formação</label>
+    <input type="text" class="form-control" id="var_cidade_formacao" placeholder="Cidade onde se formou">
+  </div>
+
+        <div class="form-group">
+    <label for="var_instituicao_formacao">Instituição de formação</label>
+    <input type="text" class="form-control" id="var_instituicao_formacao" placeholder="Instituição onde se formou">
+  </div>
+
+     <div class="form-group">
+    <label for="var_descricao_curso">Descrição do curso</label>
+    <textarea class="form-control" id="var_descricao_curso" rows="3" placeholder="Descreva seu conhecimento aprendido no curso"></textarea>
+  </div>
+
+</div>
+  <div class="col-sm-12 col-md-6">
+
+
+<h4 style="margin-left: -0.4%; margin-bottom: 4%;">Experiência Profissional</h4>
+
+    <div class="form-group">
+    <label for="empresas-trabalho">Empresas</label>
+    <input type="text" class="form-control" id="empresas-trabalho" placeholder="Empresas que trabalhou">
+  </div>
+
+      <div class="form-group">
+    <label for="cargos">Cargos</label>
+    <input type="text" class="form-control" id="cargos" placeholder="Cargos que ocupou">
+  </div>
+
+        <div class="form-group">
+    <label for="ano-inicio">Ano de início</label>
+    <input type="date" class="form-control" id="ano-inicio" placeholder="Ano de início na empresa">
+  </div>
+
+        <div class="form-group">
+    <label for="ano-fim">Ano de fim</label>
+    <input type="date" class="form-control" id="ano-fim" placeholder="Ano de fim na empresa">
+  </div>
+
+        <div class="form-group">
+    <label for="atividades-desenvolvidas">Atividades desenvolvidas</label>
+    <input type="text" class="form-control" id="atividades-desenvolvidas" placeholder="Atividades que desenvolveu">
+  </div>
+
+
+
+
+
+<h4>Habilidades técnicas</h4>
+
+
+   <div class="form-group">
+    <label for="conhecimento-area">Conhecimento na área</label>
+    <textarea class="form-control" id="conhecimento-area" rows="3" placeholder="Descreva seu conhecimento na área"></textarea>
+  </div>
+
+
+
+  <h4>Objetivo</h4>
+
+   <div class="form-group">
+    <label for="como-deseja-trabalhar">Com o que e como deseja trabalhar</label>
+    <textarea class="form-control" id="como-deseja-trabalhar" rows="3" placeholder="Descreva com o que e como deseja trabalhar"></textarea>
+  </div>
+
+      <div class="form-group">
+    <label for="expectativa-salarial">Expectativa salarial</label>
+    <input type="text" class="form-control" id="expectativa-salarial" placeholder="Sua expectativa salarial">
+  </div>
+
+
+              </div>
+
+
+              <button type="submit" class="btn btn-primary" style="margin-left: 1.3%; margin-bottom: 5%;">Enviar</button>
+
+
+                </form>
+                
+                </div>
+        </div><!--Fim do container-->
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
